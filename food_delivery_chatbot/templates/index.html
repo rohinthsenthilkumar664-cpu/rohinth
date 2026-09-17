@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ chatbot_title }}</title>
+<style>
+:root{--bg:#080b18;--panel:#11172b;--panel2:#18213b;--text:#f4f7ff;--muted:#aab5d6;--accent:#7c5cff;--accent2:#20d9c2}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at top right,#26336a 0,transparent 38%),var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif;display:flex;justify-content:center;padding:18px}
+.shell{width:min(1100px,100%);min-height:calc(100vh - 36px);display:flex;flex-direction:column;background:rgba(17,23,43,.88);border:1px solid #2d3960;border-radius:26px;overflow:hidden;box-shadow:0 20px 80px #0006}
+header{padding:22px 25px;display:flex;justify-content:space-between;align-items:center;gap:15px;border-bottom:1px solid #2d3960;background:linear-gradient(120deg,#171e39,#11172b)}
+.brand{display:flex;align-items:center;gap:13px}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;font-weight:900;color:#080b18}
+h1{font-size:1.15rem;margin:0}small{color:var(--muted)}button{border:0;border-radius:12px;padding:11px 14px;cursor:pointer;font-weight:700}
+#clear{background:#293452;color:var(--text)}main{flex:1;display:flex;flex-direction:column;min-height:0}.messages{flex:1;padding:25px;overflow:auto;display:flex;flex-direction:column;gap:15px;min-height:350px}
+.msg{max-width:min(780px,90%);padding:14px 16px;border-radius:18px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere}.assistant{align-self:flex-start;background:var(--panel2);border-bottom-left-radius:5px}.user{align-self:flex-end;background:linear-gradient(135deg,var(--accent),#5c8cff);border-bottom-right-radius:5px}
+.composer{padding:18px 22px;border-top:1px solid #2d3960;background:#0d1325}.row{display:flex;gap:10px;align-items:flex-end}textarea{flex:1;resize:none;max-height:150px;min-height:48px;border:1px solid #354264;background:#151e36;color:var(--text);border-radius:15px;padding:14px;font:inherit;outline:none}textarea:focus{border-color:var(--accent)}#send{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#080b18;min-height:48px}.hint{text-align:center;color:var(--muted);font-size:.76rem;margin-top:10px}
+@media(max-width:600px){body{padding:0}.shell{min-height:100vh;border-radius:0;border:0}header{padding:17px}.messages{padding:17px}.composer{padding:13px}.msg{max-width:94%}h1{font-size:1rem}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header><div class="brand"><div class="logo">AI</div><div><h1>{{ chatbot_title }}</h1><small>{{ domain }}</small></div></div><button id="clear">Clear</button></header>
+<main><div id="messages" class="messages"><div class="msg assistant">{{ welcome_message }}</div></div>
+<div class="composer"><div class="row"><textarea id="input" placeholder="Ask a domain-related question..." rows="1"></textarea><button id="send">Send</button></div><div class="hint">AI responses may be inaccurate. Avoid sharing sensitive information.</div></div></main>
+</div>
+<script>
+const box=document.querySelector("#messages"), input=document.querySelector("#input"), send=document.querySelector("#send");
+function add(text,role){const el=document.createElement("div");el.className="msg "+role;el.textContent=text;box.appendChild(el);box.scrollTop=box.scrollHeight;return el}
+async function submit(){const text=input.value.trim();if(!text)return;input.value="";add(text,"user");send.disabled=true;const pending=add("Thinking...","assistant");
+try{const r=await fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:text})});const d=await r.json();pending.textContent=d.answer||d.error||"Something went wrong."}catch(e){pending.textContent="Connection error. Please try again."}finally{send.disabled=false;input.focus()}}
+send.onclick=submit;input.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();submit()}});
+document.querySelector("#clear").onclick=async()=>{await fetch("/api/clear",{method:"POST"});box.innerHTML="";add("{{ welcome_message|e }}","assistant")};
+</script>
+</body>
+</html>
