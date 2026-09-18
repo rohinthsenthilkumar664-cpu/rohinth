@@ -1,0 +1,5 @@
+# Resume Builder Chatbot
+
+Domain: Resume Writing
+
+Run with `python app.py` after adding your Gemini API key to `.env`.
