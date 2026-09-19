@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Resume Builder Chatbot"
-DOMAIN = "Resume Builder Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Resume Builder Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

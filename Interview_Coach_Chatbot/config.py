@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Interview Coach Chatbot"
-DOMAIN = "Interview Coach Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Interview Coach Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

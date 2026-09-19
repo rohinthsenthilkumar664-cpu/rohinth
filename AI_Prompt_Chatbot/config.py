@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "AI Prompt Chatbot"
-DOMAIN = "AI Prompt Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about AI Prompt Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

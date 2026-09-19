@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Farmer Assistant Chatbot"
-DOMAIN = "Farmer Assistant Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Farmer Assistant Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

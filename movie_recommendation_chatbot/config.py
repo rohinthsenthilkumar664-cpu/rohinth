@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Movie Recommendation Chatbot"
-DOMAIN = "Movie Recommendation Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Movie Recommendation Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

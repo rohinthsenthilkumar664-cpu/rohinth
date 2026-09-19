@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Crypto Chatbot"
-DOMAIN = "Crypto Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Crypto Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

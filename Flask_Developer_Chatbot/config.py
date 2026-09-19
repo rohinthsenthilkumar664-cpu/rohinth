@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Flask Developer Chatbot"
-DOMAIN = "Flask Developer Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Flask Developer Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "SSC GD Tamil Chatbot"
-DOMAIN = "SSC GD Tamil Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about SSC GD Tamil Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"

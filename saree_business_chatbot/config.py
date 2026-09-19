@@ -1,5 +1,0 @@
-CHATBOT_TITLE = "Saree Business Chatbot"
-DOMAIN = "Saree Business Chatbot"
-WELCOME_MESSAGE = "Welcome! Ask me anything about Saree Business Chatbot."
-THEME = "dark"
-PRIMARY_COLOR = "#22c55e"
