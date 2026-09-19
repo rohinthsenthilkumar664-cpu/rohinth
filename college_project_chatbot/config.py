@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "College Project Chatbot"
+DOMAIN = "College Project Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about College Project Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

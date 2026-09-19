@@ -1,5 +1,21 @@
 # English Speaking Chatbot
 
-Domain: English Speaking
+## Purpose
+English conversation practice.
 
-Run with `python app.py` after adding your Gemini API key to `.env`.
+## Suggested Features
+- Session-based chat history
+- Gemini API integration
+- Flask frontend
+- Render deployment
+
+## Project Structure
+```
+app.py
+config.py
+.env
+requirements.txt
+templates/index.html
+static/style.css
+static/script.js
+```

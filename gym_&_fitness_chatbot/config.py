@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "Gym & Fitness Chatbot"
+DOMAIN = "Gym & Fitness Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Gym & Fitness Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

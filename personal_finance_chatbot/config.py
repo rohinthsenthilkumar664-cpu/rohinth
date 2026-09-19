@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "Personal Finance Chatbot"
+DOMAIN = "Personal Finance Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Personal Finance Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

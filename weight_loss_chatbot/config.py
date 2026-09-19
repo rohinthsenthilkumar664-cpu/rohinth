@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "Weight Loss Chatbot"
+DOMAIN = "Weight Loss Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Weight Loss Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

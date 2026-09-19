@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "Python Coding Chatbot"
+DOMAIN = "Python Coding Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Python Coding Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

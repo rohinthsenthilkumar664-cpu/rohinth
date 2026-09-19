@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "Stock Market Chatbot"
+DOMAIN = "Stock Market Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Stock Market Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

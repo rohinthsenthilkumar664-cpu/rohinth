@@ -1,13 +1,5 @@
-
-import os
-CHATBOT_TITLE="Flask Developer Chatbot"
-DOMAIN="Flask Development"
-WELCOME_MESSAGE="Welcome to Flask Developer Chatbot."
-SYSTEM_PROMPT=f"""You are {CHATBOT_TITLE}.
-Answer ONLY questions related to {DOMAIN}.
-Politely refuse unrelated questions."""
-PRIMARY_COLOR="#6366F1"
-MODEL_NAME=os.getenv("MODEL_NAME","gemini-2.5-flash-lite")
-GEMINI_API_KEY=os.getenv("GEMINI_API_KEY","PASTE_API_KEY_HERE")
-PORT=int(os.getenv("PORT",5000))
-SECRET_KEY=os.getenv("SECRET_KEY","change-this-secret")
+CHATBOT_TITLE = "Flask Developer Chatbot"
+DOMAIN = "Flask Developer Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Flask Developer Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

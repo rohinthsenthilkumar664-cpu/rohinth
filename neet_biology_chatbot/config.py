@@ -1,0 +1,5 @@
+CHATBOT_TITLE = "NEET Biology Chatbot"
+DOMAIN = "NEET Biology Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about NEET Biology Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"

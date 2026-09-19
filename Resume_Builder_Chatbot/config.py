@@ -1,13 +1,5 @@
-
-import os
-CHATBOT_TITLE="Resume Builder Chatbot"
-DOMAIN="Resume Writing"
-WELCOME_MESSAGE="Welcome to Resume Builder Chatbot."
-SYSTEM_PROMPT=f"""You are {CHATBOT_TITLE}.
-Answer ONLY questions related to {DOMAIN}.
-Politely refuse unrelated questions."""
-PRIMARY_COLOR="#14B8A6"
-MODEL_NAME=os.getenv("MODEL_NAME","gemini-2.5-flash-lite")
-GEMINI_API_KEY=os.getenv("GEMINI_API_KEY","PASTE_API_KEY_HERE")
-PORT=int(os.getenv("PORT",5000))
-SECRET_KEY=os.getenv("SECRET_KEY","change-this-secret")
+CHATBOT_TITLE = "Resume Builder Chatbot"
+DOMAIN = "Resume Builder Chatbot"
+WELCOME_MESSAGE = "Welcome! Ask me anything about Resume Builder Chatbot."
+THEME = "dark"
+PRIMARY_COLOR = "#22c55e"
