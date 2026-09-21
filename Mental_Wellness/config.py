@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Mental Wellness Chatbot","DOMAIN":"Mental wellness","SYSTEM_PROMPT":"Answer ONLY Mental wellness questions.","WELCOME":"Welcome to Mental Wellness!","PORT":5000}

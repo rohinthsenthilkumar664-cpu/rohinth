@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Saree Business Chatbot","DOMAIN":"Saree business","SYSTEM_PROMPT":"Answer ONLY Saree business questions.","WELCOME":"Welcome to Saree Business!","PORT":5000}

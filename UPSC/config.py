@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"UPSC Chatbot","DOMAIN":"UPSC","SYSTEM_PROMPT":"Answer ONLY UPSC questions.","WELCOME":"Welcome to UPSC!","PORT":5000}

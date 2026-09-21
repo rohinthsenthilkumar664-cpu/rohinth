@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Gym Fitness Chatbot","DOMAIN":"Fitness","SYSTEM_PROMPT":"Answer ONLY Fitness questions.","WELCOME":"Welcome to Gym Fitness!","PORT":5000}

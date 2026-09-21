@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Personal Finance Chatbot","DOMAIN":"Personal finance","SYSTEM_PROMPT":"Answer ONLY Personal finance questions.","WELCOME":"Welcome to Personal Finance!","PORT":5000}

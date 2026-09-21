@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Farmer Assistant Chatbot","DOMAIN":"Agriculture","SYSTEM_PROMPT":"Answer ONLY Agriculture questions.","WELCOME":"Welcome to Farmer Assistant!","PORT":5000}

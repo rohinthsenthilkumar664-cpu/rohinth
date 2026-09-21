@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Java Coding Chatbot","DOMAIN":"Java programming","SYSTEM_PROMPT":"Answer ONLY Java programming questions.","WELCOME":"Welcome to Java Coding!","PORT":5000}

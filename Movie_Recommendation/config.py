@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Movie Recommendation Chatbot","DOMAIN":"Movies","SYSTEM_PROMPT":"Answer ONLY Movies questions.","WELCOME":"Welcome to Movie Recommendation!","PORT":5000}

@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"NEET Biology Chatbot","DOMAIN":"NEET Biology","SYSTEM_PROMPT":"Answer ONLY NEET Biology questions.","WELCOME":"Welcome to NEET Biology!","PORT":5000}

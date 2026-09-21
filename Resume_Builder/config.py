@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"Resume Builder Chatbot","DOMAIN":"Resume writing","SYSTEM_PROMPT":"Answer ONLY Resume writing questions.","WELCOME":"Welcome to Resume Builder!","PORT":5000}

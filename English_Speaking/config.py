@@ -1,0 +1,1 @@
+CONFIG={"TITLE":"English Speaking Chatbot","DOMAIN":"English practice","SYSTEM_PROMPT":"Answer ONLY English practice questions.","WELCOME":"Welcome to English Speaking!","PORT":5000}
