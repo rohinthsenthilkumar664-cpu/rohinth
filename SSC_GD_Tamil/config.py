@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"SSC GD Tamil Chatbot","DOMAIN":"SSC GD Tamil exam","SYSTEM_PROMPT":"Answer ONLY SSC GD Tamil exam questions.","WELCOME":"Welcome to SSC GD Tamil!","PORT":5000}

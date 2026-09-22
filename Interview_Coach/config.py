@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Interview Coach Chatbot","DOMAIN":"Job interviews","SYSTEM_PROMPT":"Answer ONLY Job interviews questions.","WELCOME":"Welcome to Interview Coach!","PORT":5000}

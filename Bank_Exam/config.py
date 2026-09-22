@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Bank Exam Chatbot","DOMAIN":"Bank exams","SYSTEM_PROMPT":"Answer ONLY Bank exams questions.","WELCOME":"Welcome to Bank Exam!","PORT":5000}

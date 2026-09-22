@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Tamil Grammar Chatbot","DOMAIN":"Tamil grammar","SYSTEM_PROMPT":"Answer ONLY Tamil grammar questions.","WELCOME":"Welcome to Tamil Grammar!","PORT":5000}

@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Travel Guide Chatbot","DOMAIN":"Travel","SYSTEM_PROMPT":"Answer ONLY Travel questions.","WELCOME":"Welcome to Travel Guide!","PORT":5000}

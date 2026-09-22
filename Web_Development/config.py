@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Web Development Chatbot","DOMAIN":"HTML CSS JS","SYSTEM_PROMPT":"Answer ONLY HTML CSS JS questions.","WELCOME":"Welcome to Web Development!","PORT":5000}

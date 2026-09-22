@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Career Assistant Chatbot","DOMAIN":"Career guidance","SYSTEM_PROMPT":"Answer ONLY Career guidance questions.","WELCOME":"Welcome to Career Assistant!","PORT":5000}

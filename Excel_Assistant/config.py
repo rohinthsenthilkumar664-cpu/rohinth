@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Excel Assistant Chatbot","DOMAIN":"Microsoft Excel","SYSTEM_PROMPT":"Answer ONLY Microsoft Excel questions.","WELCOME":"Welcome to Excel Assistant!","PORT":5000}

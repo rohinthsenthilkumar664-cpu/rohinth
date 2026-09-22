@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"TNPSC Chatbot","DOMAIN":"TNPSC exam","SYSTEM_PROMPT":"Answer ONLY TNPSC exam questions.","WELCOME":"Welcome to TNPSC!","PORT":5000}

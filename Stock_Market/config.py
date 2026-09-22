@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Stock Market Chatbot","DOMAIN":"Indian stock market","SYSTEM_PROMPT":"Answer ONLY Indian stock market questions.","WELCOME":"Welcome to Stock Market!","PORT":5000}

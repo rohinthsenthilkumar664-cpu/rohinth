@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Startup Mentor Chatbot","DOMAIN":"Startup advice","SYSTEM_PROMPT":"Answer ONLY Startup advice questions.","WELCOME":"Welcome to Startup Mentor!","PORT":5000}

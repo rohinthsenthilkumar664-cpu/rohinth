@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"AI Prompt Chatbot","DOMAIN":"Prompt engineering","SYSTEM_PROMPT":"Answer ONLY Prompt engineering questions.","WELCOME":"Welcome to AI Prompt!","PORT":5000}

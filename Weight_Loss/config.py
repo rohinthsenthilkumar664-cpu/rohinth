@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Weight Loss Chatbot","DOMAIN":"Weight loss","SYSTEM_PROMPT":"Answer ONLY Weight loss questions.","WELCOME":"Welcome to Weight Loss!","PORT":5000}

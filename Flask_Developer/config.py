@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Flask Developer Chatbot","DOMAIN":"Flask development","SYSTEM_PROMPT":"Answer ONLY Flask development questions.","WELCOME":"Welcome to Flask Developer!","PORT":5000}

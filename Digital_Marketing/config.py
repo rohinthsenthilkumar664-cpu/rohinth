@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Digital Marketing Chatbot","DOMAIN":"Digital marketing","SYSTEM_PROMPT":"Answer ONLY Digital marketing questions.","WELCOME":"Welcome to Digital Marketing!","PORT":5000}

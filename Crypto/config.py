@@ -1,1 +1,0 @@
-CONFIG={"TITLE":"Crypto Chatbot","DOMAIN":"Cryptocurrency","SYSTEM_PROMPT":"Answer ONLY Cryptocurrency questions.","WELCOME":"Welcome to Crypto!","PORT":5000}
