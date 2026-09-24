@@ -1,0 +1,20 @@
+
+<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+<style>
+body{margin:0;font-family:Arial;background:#0b1220;color:#fff}
+.glass .box{backdrop-filter:blur(12px);background:rgba(255,255,255,.08)}
+.terminal .box{background:#000;border:1px solid #22c55e;color:#22c55e}
+.neon .box{background:#12051f;box-shadow:0 0 20px {{theme.primary}}}
+.card .box{background:#1f2937;border-radius:20px}
+.clean .box{background:#fff;color:#111}
+.wrap{max-width:900px;margin:auto;padding:20px}.box{padding:20px;border-radius:24px}
+button{background:{{theme.primary}};color:#fff;border:none;padding:12px 18px;border-radius:999px}
+input{flex:1;padding:12px;border-radius:999px;border:none}
+#chat{min-height:300px;white-space:pre-wrap}
+</style></head>
+<body class="{{layout}}"><div class="wrap"><div class="box"><h2>{{title}}</h2><p>{{welcome}}</p><div id=chat></div>
+<div style="display:flex;gap:10px;margin-top:16px"><input id=m placeholder="Ask about this domain only"><button onclick="send()">Send</button></div></div></div>
+<script>
+async function send(){let m=document.getElementById('m');let t=m.value.trim();if(!t)return;chat.innerHTML+="\n🧑 "+t;m.value="";let r=await fetch('/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:t})});let j=await r.json();chat.innerHTML+="\n🤖 "+j.reply;}
+</script></body></html>
